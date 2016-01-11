@@ -13,9 +13,5 @@
     "gulp-sass": "^2.1.1",
     "imagemin-pngquant": "^4.2.0"
   },
-  "license": "MIT",
-  "dependencies": {
-    "gulp-imagemin": "^2.4.0",
-    "imagemin-pngquant": "^4.2.0"
-  }
+  "license": "MIT"
 }
