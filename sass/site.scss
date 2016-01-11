@@ -1,0 +1,49 @@
+$var-test: #333;
+$height: 10vh;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: $var-test;
+	height: 100vh;
+}
+
+.header,
+.footer {
+	background: rgb(44, 46, 49);
+	padding: $height/4 1em;
+	height: $height;
+	line-height: $height;
+	color: #eee;
+
+	img {
+		height: 100%;
+	}
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content {
+	height: 100vh - $height * 2;
+	line-height: 100vh - $height * 2;
+	text-align: center;
+}
+
+.footer {
+	text-align: right;
+}
+
+h1 {
+	color: #efe778;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 1em;
+}

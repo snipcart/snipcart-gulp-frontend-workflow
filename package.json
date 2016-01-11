@@ -1,0 +1,21 @@
+{
+  "name": "Snipcart",
+  "version": "0.0.1",
+  "description": "Snipcart Frontent Gulp frontend workflow",
+  "author": "Snipcart",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "coffee-script": "1.10.x",
+    "gulp": "~3.9.x",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.1.1",
+    "imagemin-pngquant": "^4.2.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-imagemin": "^2.4.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
