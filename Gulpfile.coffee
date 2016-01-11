@@ -1,11 +1,15 @@
 ﻿# Requirement
 ### Define variables for each gulp plugin ###
 gulp = require 'gulp'
+
 sass = require 'gulp-sass'
 autoprefixer = require 'gulp-autoprefixer'
+
 notify = require 'gulp-notify'
+
 browserSync = require 'browser-sync'
 bs1 = browserSync.create("first server")
+
 imagemin = require 'gulp-imagemin'
 pngquant = require 'imagemin-pngquant'
 
